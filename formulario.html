@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Dicionário de Tags HTML</h2>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li >Introdução</li>
+                </a>
+                <a href="estrutura.html">
+                    <li>Tags de Estrutura</li>
+                </a>
+                <a href="formulario.html">
+                    <li class="active">Tags de Formulário</li>
+                </a>
+                <a href="midia.html">
+                    <li>Tags de Mídia</li>
+                </a>
+                <a href="texto.html">
+                    <li>Tags de Texto</li>
+                </a>
+                <a href="listas.html">
+                    <li>Tags de Listas</li>
+                </a>
+                <a href="tabela.html">
+                    <li>Tags de Tabela</li>
+                </a>
+                <a href="estilo-semantica.html">
+                    <li>Tags de Estilo e Semântica</li>
+                </a>
+                <a href="outros.html">
+                    <li>Outras Tags</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <section id="formulario">
+            <h1>Tags de Formulário</h1>
+            <div class="tag">
+                <h2>&lt;form&gt;</h2>
+                <p>Define um formulário HTML para entrada de dados do usuário.</p>
+                <pre><code>&lt;<span class="tag">form</span>&gt;
+    &lt;<span class="tag">input</span> type="text" name="nome"&gt;
+    &lt;<span class="tag">input</span> type="submit" value="Enviar"&gt;
+&lt;/<span class="tag">form</span>&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;input&gt;</h2>
+                <p>Define um campo de entrada de dados.</p>
+                <pre><code>&lt;<span class="tag">input</span> type="text" name="nome"&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;textarea&gt;</h2>
+                <p>Define uma área de texto de várias linhas.</p>
+                <pre><code>&lt;<span class="tag">textarea</span> name="mensagem" rows="4" cols="50"&gt;&lt;/<span class="tag">textarea</span>&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;button&gt;</h2>
+                <p>Define um botão clicável.</p>
+                <pre><code>&lt;<span class="tag">button</span> type="button"&gt;Clique Aqui&lt;/<span class="tag">button</span>&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;select&gt; e &lt;option&gt;</h2>
+                <p>Define uma lista suspensa.</p>
+                <pre><code>&lt;<span class="tag">select</span> name="opcoes"&gt;
+    &lt;<span class="tag">option</span> value="opcao1"&gt;Opção 1&lt;/<span class="tag">option</span>&gt;
+    &lt;<span class="tag">option</span> value="opcao2"&gt;Opção 2&lt;/<span class="tag">option</span>&gt;
+&lt;/<span class="tag">select</span>&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;label&gt;</h2>
+                <p>Define um rótulo para um elemento de formulário.</p>
+                <pre><code>&lt;<span class="tag">label</span> for="nome"&gt;Nome:&lt;/<span class="tag">label</span>&gt;
+&lt;<span class="tag">input</span> type="text" id="nome" name="nome"&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;fieldset&gt; e &lt;legend&gt;</h2>
+                <p>Define um grupo de elementos de formulário e uma legenda para o grupo.</p>
+                <pre><code>&lt;<span class="tag">fieldset</span>&gt;
+    &lt;<span class="tag">legend</span>&gt;Informações Pessoais&lt;/<span class="tag">legend</span>&gt;
+    &lt;<span class="tag">label</span> for="nome"&gt;Nome:&lt;/<span class="tag">label</span>&gt;
+    &lt;<span class="tag">input</span> type="text" id="nome" name="nome"&gt;
+    &lt;<span class="tag">label</span> for="email"&gt;Email:&lt;/<span class="tag">label</span>&gt;
+    &lt;<span class="tag">input</span> type="email" id="email" name="email"&gt;
+&lt;/<span class="tag">fieldset</span>&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;legend&gt;</h2>
+                <p>Define uma legenda para um <code>&lt;fieldset&gt;</code>.</p>
+                <pre><code>&lt;<span class="tag">legend</span>&gt;Informações Pessoais&lt;/<span class="tag">legend</span>&gt;</code></pre>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

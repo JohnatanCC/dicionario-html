@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tags de Mídia</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2>Dicionário de Tags HTML</h2>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li>Introdução</li>
+                </a>
+                <a href="estrutura.html">
+                    <li>Tags de Estrutura</li>
+                </a>
+                <a href="formulario.html">
+                    <li>Tags de Formulário</li>
+                </a>
+                <a href="midia.html">
+                    <li  class="active">Tags de Mídia</li>
+                </a>
+                <a href="texto.html">
+                    <li>Tags de Texto</li>
+                </a>
+                <a href="listas.html">
+                    <li>Tags de Listas</li>
+                </a>
+                <a href="tabela.html">
+                    <li>Tags de Tabela</li>
+                </a>
+                <a href="estilo-semantica.html">
+                    <li>Tags de Estilo e Semântica</li>
+                </a>
+                <a href="outros.html">
+                    <li>Outras Tags</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <section id="midia">
+            <h1>Tags de Mídia</h1>
+            <div class="tag">
+                <h2>&lt;audio&gt;</h2>
+                <p>Define conteúdo de som.</p>
+                <pre><code>&lt;<span class="tag">audio</span> controls&gt;
+    &lt;<span class="tag">source</span> src="audiofile.mp3" type="audio/mpeg"&gt;
+&lt;/<span class="tag">audio</span>&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;video&gt;</h2>
+                <p>Define conteúdo de vídeo.</p>
+                <pre><code>&lt;<span class="tag">video</span> width="320" height="240" controls&gt;
+    &lt;<span class="tag">source</span> src="videofile.mp4" type="video/mp4"&gt;
+&lt;/<span class="tag">video</span>&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;img&gt;</h2>
+                <p>Define uma imagem.</p>
+                <pre><code>&lt;<span class="tag">img</span> src="imagefile.jpg" alt="Descrição da imagem"&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;picture&gt;</h2>
+                <p>Define um container para múltiplas imagens.</p>
+                <pre><code>&lt;<span class="tag">picture</span>&gt;
+    &lt;<span class="tag">source</span> media="(min-width: 650px)" srcset="img_large.jpg"&gt;
+    &lt;<span class="tag">source</span> media="(min-width: 465px)" srcset="img_medium.jpg"&gt;
+    &lt;<span class="tag">img</span> src="img_small.jpg" alt="Descrição da imagem"&gt;
+&lt;/<span class="tag">picture</span>&gt;</code></pre>
+            </div>
+            <div class="tag">
+                <h2>&lt;figure&gt; e &lt;figcaption&gt;</h2>
+                <p>Define uma figura e uma legenda para a figura.</p>
+                <pre><code>&lt;<span class="tag">figure</span>&gt;
+    &lt;<span class="tag">img</span> src="imagefile.jpg" alt="Descrição da imagem"&gt;
+    &lt;<span class="tag">figcaption</span>&gt;Legenda da figura&lt;/<span class="tag">figcaption</span>&gt;
+&lt;/<span class="tag">figure</span>&gt;</code></pre>
+            </div>
+        </section>
+    </div>
+</body>
+</html>

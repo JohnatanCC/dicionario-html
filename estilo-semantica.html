@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionário de Tags HTML - Tags de Estilo e Semântica</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Dicionário de Tags HTML</h2>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li >Introdução</li>
+                </a>
+                <a href="estrutura.html">
+                    <li>Tags de Estrutura</li>
+                </a>
+                <a href="formulario.html">
+                    <li>Tags de Formulário</li>
+                </a>
+                <a href="midia.html">
+                    <li>Tags de Mídia</li>
+                </a>
+                <a href="texto.html">
+                    <li>Tags de Texto</li>
+                </a>
+                <a href="listas.html">
+                    <li>Tags de Listas</li>
+                </a>
+                <a href="tabela.html">
+                    <li>Tags de Tabela</li>
+                </a>
+                <a href="estilo-semantica.html">
+                    <li class="active">Tags de Estilo e Semântica</li>
+                </a>
+                <a href="outros.html">
+                    <li>Outras Tags</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <h1>Tags de Estilo e Semântica</h1>
+
+        <h2 class="primary">&lt;style&gt;</h2>
+        <p>Define estilo CSS para um documento HTML.</p>
+        <pre><code>
+&lt;<span class="tag">style</span>&gt;<br>
+  body {<br>
+    background-color: lightblue;<br>
+  }<br>
+&lt;/<span class="tag">style</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;div&gt;</h2>
+        <p>Define uma seção genérica em um documento.</p>
+        <pre><code>
+&lt;<span class="tag">div</span>&gt;Este é um div.&lt;/<span class="tag">div</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;span&gt;</h2>
+        <p>Define uma seção pequena e genérica dentro de um documento.</p>
+        <pre><code>
+&lt;<span class="tag">span</span>&gt;Este é um span.&lt;/<span class="tag">span</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;header&gt;</h2>
+        <p>Define um cabeçalho para um documento ou seção.</p>
+        <pre><code>
+&lt;<span class="tag">header</span>&gt;<br>
+  &lt;<span class="tag">h1</span>&gt;Cabeçalho&lt;/<span class="tag">h1</span>&gt;<br>
+&lt;/<span class="tag">header</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;footer&gt;</h2>
+        <p>Define um rodapé para um documento ou seção.</p>
+        <pre><code>
+&lt;<span class="tag">footer</span>&gt;<br>
+  &lt;<span class="tag">p</span>&gt;Rodapé&lt;/<span class="tag">p</span>&gt;<br>
+&lt;/<span class="tag">footer</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;main&gt;</h2>
+        <p>Define o conteúdo principal de um documento.</p>
+        <pre><code>
+&lt;<span class="tag">main</span>&gt;<br>
+  &lt;<span class="tag">p</span>&gt;Conteúdo principal.&lt;/<span class="tag">p</span>&gt;<br>
+&lt;/<span class="tag">main</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;section&gt;</h2>
+        <p>Define uma seção em um documento.</p>
+        <pre><code>
+&lt;<span class="tag">section</span>&gt;<br>
+  &lt;<span class="tag">h2</span>&gt;Seção&lt;/<span class="tag">h2</span>&gt;<br>
+  &lt;<span class="tag">p</span>&gt;Conteúdo da seção.&lt;/<span class="tag">p</span>&gt;<br>
+&lt;/<span class="tag">section</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;article&gt;</h2>
+        <p>Define um conteúdo independente em um documento.</p>
+        <pre><code>
+&lt;<span class="tag">article</span>&gt;<br>
+  &lt;<span class="tag">h2</span>&gt;Artigo&lt;/<span class="tag">h2</span>&gt;<br>
+  &lt;<span class="tag">p</span>&gt;Conteúdo do artigo.&lt;/<span class="tag">p</span>&gt;<br>
+&lt;/<span class="tag">article</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;aside&gt;</h2>
+        <p>Define conteúdo lateral relacionado ao conteúdo principal.</p>
+        <pre><code>
+&lt;<span class="tag">aside</span>&gt;<br>
+  &lt;<span class="tag">p</span>&gt;Conteúdo lateral.&lt;/<span class="tag">p</span>&gt;<br>
+&lt;/<span class="tag">aside</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;nav&gt;</h2>
+        <p>Define uma seção de links de navegação.</p>
+        <pre><code>
+&lt;<span class="tag">nav</span>&gt;<br>
+  &lt;<span class="tag">ul</span>&gt;<br>
+    &lt;<span class="tag">li</span>&gt;&lt;<span class="tag">a</span> href="#home"&gt;Home&lt;/<span class="tag">a</span>&gt;&lt;/<span class="tag">li</span>&gt;<br>
+    &lt;<span class="tag">li</span>&gt;&lt;<span class="tag">a</span> href="#about"&gt;About&lt;/<span class="tag">a</span>&gt;&lt;/<span class="tag">li</span>&gt;<br>
+  &lt;/<span class="tag">ul</span>&gt;<br>
+&lt;/<span class="tag">nav</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;figure&gt;</h2>
+        <p>Define conteúdo autônomo, como imagens, diagramas, etc.</p>
+        <pre><code>
+&lt;<span class="tag">figure</span>&gt;<br>
+  &lt;<span class="tag">img</span> src="imagem.jpg" alt="Descrição da imagem"&gt;<br>
+  &lt;<span class="tag">figcaption</span>&gt;Legenda da imagem&lt;/<span class="tag">figcaption</span>&gt;<br>
+&lt;/<span class="tag">figure</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;figcaption&gt;</h2>
+        <p>Define uma legenda para o elemento &lt;figure&gt;.</p>
+        <pre><code>
+&lt;<span class="tag">figure</span>&gt;<br>
+  &lt;<span class="tag">img</span> src="imagem.jpg" alt="Descrição da imagem"&gt;<br>
+  &lt;<span class="tag">figcaption</span>&gt;Legenda da imagem&lt;/<span class="tag">figcaption</span>&gt;<br>
+&lt;/<span class="tag">figure</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;details&gt;</h2>
+        <p>Define detalhes adicionais que o usuário pode visualizar ou ocultar.</p>
+        <pre><code>
+&lt;<span class="tag">details</span>&gt;<br>
+  &lt;<span class="tag">summary</span>&gt;Resumo&lt;/<span class="tag">summary</span>&gt;<br>
+  &lt;<span class="tag">p</span>&gt;Detalhes adicionais visíveis ao expandir.&lt;/<span class="tag">p</span>&gt;<br>
+&lt;/<span class="tag">details</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;summary&gt;</h2>
+        <p>Define um título para o elemento &lt;details&gt;.</p>
+        <pre><code>
+&lt;<span class="tag">details</span>&gt;<br>
+  &lt;<span class="tag">summary</span>&gt;Resumo&lt;/<span class="tag">summary</span>&gt;<br>
+  &lt;<span class="tag">p</span>&gt;Detalhes adicionais visíveis ao expandir.&lt;/<span class="tag">p</span>&gt;<br>
+&lt;/<span class="tag">details</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;dialog&gt;</h2>
+        <p>Define uma caixa de diálogo ou janela.</p>
+        <pre><code>
+&lt;<span class="tag">dialog</span>&gt;<br>
+  &lt;<span class="tag">p</span>&gt;Esta é uma caixa de diálogo.&lt;/<span class="tag">p</span>&gt;<br>
+&lt;/<span class="tag">dialog</span>&gt;
+        </code></pre>
+    </div>
+</body>
+
+</html>

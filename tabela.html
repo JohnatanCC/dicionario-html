@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionário de Tags HTML - Tags de Tabela</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Dicionário de Tags HTML</h2>
+        <nav>
+            <ul>
+                <a href="index.html">
+                    <li >Introdução</li>
+                </a>
+                <a href="estrutura.html">
+                    <li>Tags de Estrutura</li>
+                </a>
+                <a href="formulario.html">
+                    <li>Tags de Formulário</li>
+                </a>
+                <a href="midia.html">
+                    <li>Tags de Mídia</li>
+                </a>
+                <a href="texto.html">
+                    <li>Tags de Texto</li>
+                </a>
+                <a href="listas.html">
+                    <li>Tags de Listas</li>
+                </a>
+                <a href="tabela.html">
+                    <li class="active">Tags de Tabela</li>
+                </a>
+                <a href="estilo-semantica.html">
+                    <li>Tags de Estilo e Semântica</li>
+                </a>
+                <a href="outros.html">
+                    <li>Outras Tags</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <h1>Tags de Tabela</h1>
+
+        <h2 class="primary">&lt;table&gt;</h2>
+        <p>Define uma tabela.</p>
+        <pre><code>
+&lt;<span class="tag">table</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">th</span>&gt;Cabeçalho 1&lt;/<span class="tag">th</span>&gt;<br>
+    &lt;<span class="tag">th</span>&gt;Cabeçalho 2&lt;/<span class="tag">th</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Dado 1&lt;/<span class="tag">td</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Dado 2&lt;/<span class="tag">td</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+&lt;/<span class="tag">table</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;tr&gt;</h2>
+        <p>Define uma linha em uma tabela.</p>
+        <pre><code>
+&lt;<span class="tag">tr</span>&gt;<br>
+  &lt;<span class="tag">td</span>&gt;Dado 1&lt;/<span class="tag">td</span>&gt;<br>
+  &lt;<span class="tag">td</span>&gt;Dado 2&lt;/<span class="tag">td</span>&gt;<br>
+&lt;/<span class="tag">tr</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;td&gt;</h2>
+        <p>Define uma célula de dados em uma tabela.</p>
+        <pre><code>
+&lt;<span class="tag">tr</span>&gt;<br>
+  &lt;<span class="tag">td</span>&gt;Dado 1&lt;/<span class="tag">td</span>&gt;<br>
+  &lt;<span class="tag">td</span>&gt;Dado 2&lt;/<span class="tag">td</span>&gt;<br>
+&lt;/<span class="tag">tr</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;th&gt;</h2>
+        <p>Define uma célula de cabeçalho em uma tabela.</p>
+        <pre><code>
+&lt;<span class="tag">tr</span>&gt;<br>
+  &lt;<span class="tag">th</span>&gt;Cabeçalho 1&lt;/<span class="tag">th</span>&gt;<br>
+  &lt;<span class="tag">th</span>&gt;Cabeçalho 2&lt;/<span class="tag">th</span>&gt;<br>
+&lt;/<span class="tag">tr</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;thead&gt;</h2>
+        <p>Define um grupo de cabeçalhos em uma tabela.</p>
+        <pre><code>
+&lt;<span class="tag">thead</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">th</span>&gt;Cabeçalho 1&lt;/<span class="tag">th</span>&gt;<br>
+    &lt;<span class="tag">th</span>&gt;Cabeçalho 2&lt;/<span class="tag">th</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+&lt;/<span class="tag">thead</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;tbody&gt;</h2>
+        <p>Define o corpo de uma tabela.</p>
+        <pre><code>
+&lt;<span class="tag">tbody</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Dado 1&lt;/<span class="tag">td</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Dado 2&lt;/<span class="tag">td</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+&lt;/<span class="tag">tbody</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;tfoot&gt;</h2>
+        <p>Define o rodapé de uma tabela.</p>
+        <pre><code>
+&lt;<span class="tag">tfoot</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Rodapé 1&lt;/<span class="tag">td</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Rodapé 2&lt;/<span class="tag">td</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+&lt;/<span class="tag">tfoot</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;caption&gt;</h2>
+        <p>Define uma legenda para a tabela.</p>
+        <pre><code>
+&lt;<span class="tag">table</span>&gt;<br>
+  &lt;<span class="tag">caption</span>&gt;Legenda da Tabela&lt;/<span class="tag">caption</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">th</span>&gt;Cabeçalho 1&lt;/<span class="tag">th</span>&gt;<br>
+    &lt;<span class="tag">th</span>&gt;Cabeçalho 2&lt;/<span class="tag">th</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Dado 1&lt;/<span class="tag">td</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Dado 2&lt;/<span class="tag">td</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+&lt;/<span class="tag">table</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;col&gt;</h2>
+        <p>Define propriedades de coluna para cada coluna dentro de um grupo de colunas.</p>
+        <pre><code>
+&lt;<span class="tag">colgroup</span>&gt;<br>
+  &lt;<span class="tag">col</span> span="2" style="background-color: #f2f2f2"&gt;<br>
+&lt;/<span class="tag">colgroup</span>&gt;
+        </code></pre>
+
+        <h2 class="primary">&lt;colgroup&gt;</h2>
+        <p>Especifica um grupo de uma ou mais colunas em uma tabela para formatação.</p>
+        <pre><code>
+&lt;<span class="tag">table</span>&gt;<br>
+  &lt;<span class="tag">colgroup</span>&gt;<br>
+    &lt;<span class="tag">col</span> span="2" style="background-color: #f2f2f2"&gt;<br>
+  &lt;/<span class="tag">colgroup</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">th</span>&gt;Cabeçalho 1&lt;/<span class="tag">th</span>&gt;<br>
+    &lt;<span class="tag">th</span>&gt;Cabeçalho 2&lt;/<span class="tag">th</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+  &lt;<span class="tag">tr</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Dado 1&lt;/<span class="tag">td</span>&gt;<br>
+    &lt;<span class="tag">td</span>&gt;Dado 2&lt;/<span class="tag">td</span>&gt;<br>
+  &lt;/<span class="tag">tr</span>&gt;<br>
+&lt;/<span class="tag">table</span>&gt;
+        </code></pre>
+    </div>
+</body>
+
+</html>

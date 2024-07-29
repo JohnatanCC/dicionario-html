@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dicionário de Tags HTML</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2>Dicionário de Tags HTML</h2>
+        <nav>
+            <ul>
+                <a href="#introducao">
+                    <li class="active">Introdução</li>
+                </a>
+                <a href="estrutura.html">
+                    <li>Tags de Estrutura</li>
+                </a>
+                <a href="formulario.html">
+                    <li>Tags de Formulário</li>
+                </a>
+                <a href="midia.html">
+                    <li>Tags de Mídia</li>
+                </a>
+                <a href="texto.html">
+                    <li>Tags de Texto</li>
+                </a>
+                <a href="listas.html">
+                    <li>Tags de Listas</li>
+                </a>
+                <a href="tabela.html">
+                    <li>Tags de Tabela</li>
+                </a>
+                <a href="estilo-semantica.html">
+                    <li>Tags de Estilo e Semântica</li>
+                </a>
+                <a href="outros.html">
+                    <li>Outras Tags</li>
+                </a>
+            </ul>
+        </nav>
+    </div>
+    <div class="content">
+        <section id="introducao">
+            <h1>Introdução</h1>
+            <p>Bem-vindo ao dicionário de tags HTML. Aqui você encontrará informações sobre diversas tags HTML, suas
+                funcionalidades e exemplos de uso.</p>
+            <p>A estrutura básica de um documento HTML consiste nas seguintes tags principais:</p>
+            <ul class="list">
+                <li><strong class="primary">&lt;!DOCTYPE html&gt;</strong>: Declara o tipo de documento e a versão do
+                    HTML.</li>
+                <li><strong class="primary">&lt;html&gt;</strong>: Define a raiz de um documento HTML.</li>
+                <li><strong class="primary">&lt;head&gt;</strong>: Contém metadados, links para scripts e folhas de
+                    estilo.</li>
+                <li><strong class="primary">&lt;meta&gt;</strong>: Define metadados sobre o documento, como charset e
+                    viewport.</li>
+                <li><strong class="primary">&lt;link&gt;</strong>: Usado para linkar folhas de estilo externas.</li>
+                <li><strong class="primary">&lt;title&gt;</strong>: Define o título do documento, que é exibido na aba
+                    do navegador.</li>
+                <li><strong class="primary">&lt;body&gt;</strong>: Contém todo o conteúdo visível da página.</li>
+            </ul>
+            <p>Aqui está um exemplo básico de um documento HTML:</p>
+            <pre><code>&lt;!DOCTYPE html&gt;
+&lt;<span class="tag">html</span> lang="pt-BR"&gt;
+    &lt;<span class="tag">head</span>&gt;
+        &lt;<span class="tag">meta</span> charset="UTF-8"&gt;
+        &lt;<span class="tag">meta</span> name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+        &lt;<span class="tag">title</span>&gt;Título do Documento&lt;/<span class="tag">title</span>&gt;
+        &lt;<span class="tag">link</span> rel="stylesheet" href="styles.css"&gt;
+    &lt;/<span class="tag">head</span>&gt;
+    &lt;<span class="tag">body</span>&gt;
+        &lt;p&gt;Conteúdo da página.&lt;/p&gt;
+    &lt;/<span class="tag">body</span>&gt;
+&lt;/<span class="tag">html</span>&gt;</code></pre>
+
+            <h2>Resumo das Seções</h2>
+            <div class="grid-2">
+
+                <div class="flex-column">
+                    <h3 class="primary">Tags de Estrutura</h3>
+                    <p>As tags de estrutura são usadas para definir a estrutura básica de um documento HTML. Elas
+                        incluem:
+                    </p>
+                    <ul class="list h-100">
+                        <li><strong class="primary">&lt;html&gt;</strong>: Define a raiz de um documento HTML.</li>
+                        <li><strong class="primary">&lt;head&gt;</strong>: Contém metadados, links para scripts e folhas
+                            de
+                            estilo.</li>
+                        <li><strong class="primary">&lt;body&gt;</strong>: Contém todo o conteúdo visível da página.
+                        </li>
+                        <li><strong class="primary">&lt;header&gt;</strong>: Define uma seção de cabeçalho para um
+                            documento
+                            ou uma seção.</li>
+                        <li><strong class="primary">&lt;nav&gt;</strong>: Define um conjunto de links de navegação.</li>
+                        <li><strong class="primary">&lt;section&gt;</strong>: Define uma seção em um documento.</li>
+                        <li><strong class="primary">&lt;article&gt;</strong>: Define conteúdo independente e de
+                            auto-contido.</li>
+                        <li><strong class="primary">&lt;aside&gt;</strong>: Define conteúdo lateral que é relacionado ao
+                            conteúdo principal.</li>
+                        <li><strong class="primary">&lt;footer&gt;</strong>: Define um rodapé para um documento ou uma
+                            seção.</li>
+                    </ul>
+                </div>
+
+                <div class="flex-column">
+                    <h3 class="primary">Tags de Formulário</h3>
+                    <p>As tags de formulário são usadas para criar formulários de entrada de dados em HTML. Elas
+                        incluem:</p>
+                    <ul class="list h-100">
+                        <li><strong class="primary">&lt;form&gt;</strong>: Define um formulário HTML para entrada de
+                            dados do
+                            usuário.</li>
+                        <li><strong class="primary">&lt;input&gt;</strong>: Define um campo de entrada de dados.</li>
+                        <li><strong class="primary">&lt;textarea&gt;</strong>: Define uma área de texto de várias
+                            linhas.</li>
+                        <li><strong class="primary">&lt;button&gt;</strong>: Define um botão clicável.</li>
+                        <li><strong class="primary">&lt;select&gt;</strong>: Define uma lista suspensa.</li>
+                        <li><strong class="primary">&lt;option&gt;</strong>: Define uma opção em uma lista suspensa.
+                        </li>
+                        <li><strong class="primary">&lt;label&gt;</strong>: Define um rótulo para um elemento de
+                            formulário.
+                        </li>
+                        <li><strong class="primary">&lt;fieldset&gt;</strong>: Define um grupo de elementos de
+                            formulário.</li>
+                        <li><strong class="primary">&lt;legend&gt;</strong>: Define uma legenda para um
+                            <code>&lt;fieldset&gt;</code>.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex-column">
+                    <h3 class="primary">Tags de Mídia</h3>
+                    <p>As tags de mídia são usadas para incorporar conteúdo multimídia como áudio, vídeo e imagens. Elas
+                        incluem:</p>
+                    <ul class="list h-100">
+                        <li><strong class="primary">&lt;audio&gt;</strong>: Define conteúdo de som.</li>
+                        <li><strong class="primary">&lt;video&gt;</strong>: Define conteúdo de vídeo.</li>
+                        <li><strong class="primary">&lt;img&gt;</strong>: Define uma imagem.</li>
+                        <li><strong class="primary">&lt;picture&gt;</strong>: Define um container para múltiplas
+                            imagens.</li>
+                        <li><strong class="primary">&lt;figure&gt;</strong>: Define uma figura.</li>
+                        <li><strong class="primary">&lt;figcaption&gt;</strong>: Define uma legenda para uma figura.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="flex-column">
+                    <h3 class="primary">Outras Tags</h3>
+                    <p>Além das tags mencionadas, existem várias outras tags úteis em HTML. Elas incluem:</p>
+                    <ul class="list h-100">
+                        <li><strong class="primary">&lt;a&gt;</strong>: Define um hyperlink.</li>
+                        <li><strong class="primary">&lt;div&gt;</strong>: Define uma seção ou divisão no documento HTML.
+                        </li>
+                        <li><strong class="primary">&lt;span&gt;</strong>: Define uma seção ou divisão em linha no
+                            documento
+                            HTML.</li>
+                        <li><strong class="primary">&lt;br&gt;</strong>: Insere uma quebra de linha.</li>
+                        <li><strong class="primary">&lt;hr&gt;</strong>: Insere uma linha horizontal.</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
